@@ -11,7 +11,7 @@ name: IBM Cloud Foundry - XRay
 
 env:
   IBM_CF_API: https://api.eu-gb.cf.cloud.ibm.com
-  IBM_CF_APP_MEM: 128M
+  IBM_CF_APP_MEM: 256M
 
 on:
   workflow_dispatch:
