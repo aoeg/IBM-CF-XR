@@ -1,5 +1,5 @@
 #
-# 每周一21点自动安装xray
+# 每周三 19点自动安装xray
 #
 # Copyright (c) 2020 P3TERX <https://p3terx.com>
 #
@@ -17,7 +17,7 @@ on:
   workflow_dispatch:
   repository_dispatch:
   schedule:
-   - cron: 0 21 * * 1
+   - cron: 05 19 * * 3  
 
 jobs:
   deploy:
